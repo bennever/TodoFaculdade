@@ -1,4 +1,4 @@
-  import { useEffect,useState } from "react";
+import { useEffect,useState } from "react";
   import Todo from "./Todo";
 
   export default function App() {

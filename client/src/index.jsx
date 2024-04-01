@@ -1,11 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './styles.css';
-import App from './App';
+import ReactDOM from 'react-dom/client'; 
+import MainRoutes from './routes/MainRoutes';
+import './styles.css'; 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+document.title = 'TodoList';
+const rootElement = document.getElementById('root');
+ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
-    <App />
+    <MainRoutes />
   </React.StrictMode>
 );

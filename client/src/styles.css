@@ -74,9 +74,6 @@
 }
 
 
-
-
-
 .mutations {
   display: flex;
   gap: 0.75rem ;
@@ -98,6 +95,23 @@
         transform: scale(1.15);
      }
 }
+
+.todo__edit{
+  border: none;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.5s;
+  background: none;
+  color: white;
+  font-size: 1.6rem;
+  
+  &:hover{
+      transform: scale(1.15);
+   }
+}
+
+
 
 .todo__status{
   font-size: 1.75rem;
@@ -137,3 +151,23 @@
     background-color: rgba(3, 102, 20, 0.75);
   }
  }
+ .todo__home-link {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  padding: 10px 20px;
+  background-color: #6f42c1;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+}
+
+.todo__home-link:hover {
+  background-color: #9b59b6;}
+
+
+  .editsalvar{
+    background-color: rgb(1, 139, 1);
+  }

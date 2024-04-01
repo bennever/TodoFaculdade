@@ -55,7 +55,7 @@ router.put("/todos/:id", async (req, res) => {
 
     const updatedTodo = await collection.updateOne({ _id }, { $set: { status: !status } });
 
-    res.status(200).json(updatedTodo);
+    res.status(200).json(updatedTodo);  
 });
 
 module.exports = router;
